@@ -4,7 +4,21 @@ Los smartphones se han convertido poco a poco en algo imprescindible para estar 
 
 #### Integrantes
 
+Somos un grupo de estudiantes, elaborando nuestro primer sitio de desarrollo web full stack, en el cual nos inspiramos en un e-commerce de  dispositivos moviles y accesorios.
+
 - Alarcia, Jorge
 - Guillermaz, Lucas
 - Gutierrez, Daiana
 - Rodriguez, Matias
+
+
+#### Paginas Web de Referencia
+
+
+- [MaxMovil](https://www.maxmovil.com/es/ "MaxMovil") (header)
+- [MercadoLibre](https://www.mercadolibre.com.ar "MercadoLibre") (login,registro)
+- [Movistar](https://tienda.movistar.com.ar "Movistar") (home)
+- [Tienda Mia](https://tiendamia.com/ar/ "Tienda Mia") (carrito de compra)
+- [Olx](https://www.olx.com.ar "Olx") (formulario de cargar del producto)
+
+Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el mercado ademas de ser escenciales conciderando la cultura actual. 
