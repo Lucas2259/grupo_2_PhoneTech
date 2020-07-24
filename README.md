@@ -13,16 +13,20 @@ Los smartphones se han convertido poco a poco en algo imprescindible para estar 
 
 Somos un grupo de estudiantes, elaborando nuestro primer sitio de desarrollo web full stack, en el cual nos inspiramos en un e-commerce de  dispositivos moviles y accesorios.
 
-- Alarcia, Jorge
+- **Alarcia, Jorge:**
+
 Edad 29 años, Técnico en higiene y seguridad laboral, estudiante de programacion web.
 
-- Guillermaz, Lucas
+- **Guillermaz, Lucas:**
+
 Edad 23 años, técnico en electromecánica en la E.E.S.T N°3 Japón,estudiante de progrmacion web
 
-- Gutierrez, Daiana
+- **Gutierrez, Daiana:**
+
 Edad 31 años, estudiante de Licenciatura en Trabajo Social cursando segundo año en la UNPAZ, estudiante de programacion web.
 
-- Rodriguez, Matias
+- **Rodriguez, Matias:**
+
 Edad 21 años, tecnico en reparacion y armado de moviles e computadoras, estudiante de programacion web.
 
 ------------
@@ -63,9 +67,15 @@ Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el
 
 ![](https://trello-attachments.s3.amazonaws.com/5f1a12ab2fdeeb282954e0af/198x198/da091c7098144a939c239e8c7ae5c45a/Logo.jpg)
 - [Colores:](https://colorhunt.co/palette/179398)
+
 -negro(#000000)
+
 -naranja(#cf7500)
+
 -amarillo(#f0a500)
+
 -blanco(#dbdbdb)
+
 - Fuente:
+
 [Bungee](https://fonts.google.com/specimen/Bungee?query=Bungee)
