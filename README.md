@@ -19,7 +19,7 @@ Edad 29 años, Técnico en higiene y seguridad laboral, estudiante de programaci
 
 - **Guillermaz, Lucas:**
 
-Edad 23 años, técnico en electromecánica en la E.E.S.T N°3 Japón,estudiante de progrmacion web
+Edad 23 años, técnico en electromecánica en la E.E.S.T N°3 Japón,estudiante de programacion web
 
 - **Gutierrez, Daiana:**
 
@@ -43,7 +43,7 @@ Edad 21 años, tecnico en reparacion y armado de moviles e computadoras, estudia
 - [Tienda Mia](https://tiendamia.com/ar/ "Tienda Mia") (carrito de compra)
 - [Olx](https://www.olx.com.ar "Olx") (formulario de cargar del producto)
 
-Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el mercado ademas de ser escenciales conciderando la cultura actual. 
+Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el mercado ademas de ser escenciales considerando la cultura actual. 
 
 
 ------------
