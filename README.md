@@ -60,7 +60,8 @@ Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el
 
 ------------
 - Logo
-![logo](https://trello-attachments.s3.amazonaws.com/5f1a12ab2fdeeb282954e0af/198x198/da091c7098144a939c239e8c7ae5c45a/Logo.jpg)
+
+![](https://trello-attachments.s3.amazonaws.com/5f1a12ab2fdeeb282954e0af/198x198/da091c7098144a939c239e8c7ae5c45a/Logo.jpg)
 - [Colores:](https://colorhunt.co/palette/179398)
 -negro(#000000)
 -naranja(#cf7500)
