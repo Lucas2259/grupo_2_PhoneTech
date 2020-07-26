@@ -60,7 +60,7 @@ Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el
 
 ------------
 
-##### Logo, colores e fuente
+##### Logo, colores  y fuentes
 
 ------------
 - Logo
