@@ -79,3 +79,4 @@ Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el
 - Fuente:
 
 [Bungee](https://fonts.google.com/specimen/Bungee?query=Bungee)
+Open Sans - Regular
