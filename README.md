@@ -19,8 +19,7 @@ Edad 29 años, Técnico en higiene y seguridad laboral, estudiante de programaci
 
 - **Guillermaz  Lucas**
 
-Edad 23 años, técnico en electromecánica en la E.E.S.T N°3 Japón,estudiante de programacion web
-
+Edad 23 años, técnico en electromecánica en la E.E.S.T N°3 Japón,estudiante de programacion web.
 - **Gutierrez Daiana**
 
 Edad 31 años, estudiante de Licenciatura en Trabajo Social cursando segundo año en la UNPAZ, estudiante de programacion web.
