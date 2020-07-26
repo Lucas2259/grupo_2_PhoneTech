@@ -34,7 +34,7 @@ Edad 21 años, tecnico en reparacion y armado de moviles e computadoras, estudia
 #### Paginas Web de Referencia
 
 ------------
-
+Elegimos estas paginas porque nos parecieron muy versátiles, novedosas y  óptimas en sus funcionalidades.
 
 
 - [MaxMovil](https://www.maxmovil.com/es/ "MaxMovil") (header)
@@ -43,7 +43,7 @@ Edad 21 años, tecnico en reparacion y armado de moviles e computadoras, estudia
 - [Tienda Mia](https://tiendamia.com/ar/ "Tienda Mia") (carrito de compra)
 - [Olx](https://www.olx.com.ar "Olx") (formulario de cargar del producto)
 
-Elegimos dichas paginas, porque nos parecieron muy versátiles y novedosas en el mercado.
+
 
 
 ------------
