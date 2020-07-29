@@ -79,3 +79,8 @@ Elegimos estas paginas porque nos parecieron muy versátiles, novedosas y  ópti
 
 [Bungee](https://fonts.google.com/specimen/Bungee?query=Bungee)
 Open Sans - Regular
+
+
+-  Enlace de Trello:
+
+https://trello.com/b/ZwmyImi7/grupo2
