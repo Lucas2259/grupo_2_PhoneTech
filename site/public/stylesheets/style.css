@@ -28,10 +28,17 @@ font-family: 'Open Sans', sans-serif;
   --color-naranja: #cf7500;
 }
 
+/* CAMBIOS GENERALES */
+
 a{
   text-decoration: none;
   font-family: 'Open Sans';
   color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
 }
 
 li{
@@ -42,7 +49,9 @@ body{
   background-color: var(--color-gris)
 }
 
+
 /* HEADER */
+
 header {
   background-color:var(--color-negro);
   padding: 20px
@@ -109,16 +118,21 @@ nav .nav-1 li a{
 
 
 
-/* CARDS  */
+/* CARDS - ARTICULOS EN VENTA */
 
-.productos{
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
+.title1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.productos .card{
+.title2{
+  text-align: center;
+}
 
+.productos{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card{
