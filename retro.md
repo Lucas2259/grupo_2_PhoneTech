@@ -1,4 +1,4 @@
-:# Retrospectiva
+ Retrsopectiva
 - Comenzar hacer.
 
 Asignar por nombre a las tarjetas en trello.
@@ -19,4 +19,4 @@ Asignar por nombre a las tarjetas en trello.
 
 - Dejar de hacer.
 
-Procastinar, aunque  entregamos el primer sprint en el tiempo estipulado concideramos, no posponer nuestras responsabilid.:
+Procastinar, aunque  entregamos el primer sprint en el tiempo estipulado concideramos, no posponer nuestras responsabilid.
