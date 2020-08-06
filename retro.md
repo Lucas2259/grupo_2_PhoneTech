@@ -1,4 +1,4 @@
- Retrospectiva
+⭐#Retrospectiva
  
  
 - Comenzar hacer.
@@ -21,4 +21,7 @@ Asignar por nombre a las tarjetas en trello.
 
 - Dejar de hacer.
 
-Procastinar, aunque  entregamos el primer sprint en el tiempo estipulado consideramos, no posponer nuestras responsabilidades.
+Procastinar, aunque entregamos el primer sprint en el tiempo estipulado consideramos, no posponer nuestras responsabilidades.
+
+
+⭐ WhatsApp Image 2020-08-05 at 5.06.09 PM.jpeg
