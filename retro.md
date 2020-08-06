@@ -24,3 +24,7 @@ Asignar por nombre a las tarjetas en trello.
 Procastinar, aunque entregamos el primer sprint en el tiempo estipulado consideramos, no posponer nuestras responsabilidades.
 
 
+📝 - Enlace de trello
+
+https://trello.com/b/ZwmyImi7/grupo2
+
