@@ -22,8 +22,8 @@
 
    Procastinar, aunque  entregamos el primer sprint en el tiempo estipulado concideramos, no posponer nuestras responsabilidades.     
 
-# -Enlace de trello
-    [https://trello.com/b/ZwmyImi7/grupo2](https://trello.com/b/ZwmyImi7/grupo2  
+# 📒Enlace de trello
+    [ https://trello.com/b/ZwmyImi7/grupo2 ] ( https://trello.com/b/ZwmyImi7/grupo2  
 
 # Mural
 
