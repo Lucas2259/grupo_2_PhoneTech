@@ -1,0 +1,163 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
+
+/* GENERALES */ 
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Bungee';
+  font-size: 30px;
+}
+
+.carga h2{
+  font-family: 'Bungee';
+}
+
+.carga h4{
+font-family: 'Open Sans';
+}
+
+
+/* FUENTES 
+font-family: 'Bungee', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/* VARIABLES */
+
+:root{
+  --color-amarillo: #f0a500;
+  --color-gris: #dbdbdb;
+  --color-negro: #000000;
+  --color-naranja: #cf7500;
+}
+
+/* CAMBIOS GENERALES */
+
+a{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  background-color: var(--color-gris);
+  font-family: 'Open Sans';
+}
+
+
+/* HEADER */
+
+header {
+  background-color:var(--color-negro);
+  padding: 20px
+}
+
+header .logo {
+  padding: 0px;
+  margin-top: 5px;
+}
+
+header form {
+  background-color:#e5e5e5;
+  border-radius: 5px;
+  padding: 0px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header form input {
+  background: none;
+  border: 0;
+  width: 85%;
+  margin: 5px 0px;
+  padding-right: 5px;
+  border-right: 2px solid var(--color-grisClaro);
+}
+
+
+header form button {
+  background: none;
+  border: 0;
+  border: var(--color-negro);
+  padding: 0;
+  padding-left: 5px;
+}
+
+/* FORM PRODUCTO */
+
+.carga .cd2{
+  margin-top: 10px;
+}
+
+.carga .prd{
+  margin-bottom: 20px;
+}
+
+ .carga .cd1 input, .carga .cd1 textarea{
+  margin-bottom: 20px;
+}
+
+.cd2 input, .cd2 textarea, .cd2 button{
+  margin-bottom: 20px;
+}
+
+.carga .cd2 button{
+  background-color: #f0f000;
+  border: 2px solid black;
+}
+
+/* TABLET */ 
+
+@media (min-width: 768px){
+
+  .carga .prd{
+    margin-top: 15px;
+  }
+  .cd{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .prd form select{
+   margin-top: 8px;
+   margin-left: 5px;
+  }
+}
+
+/* PC */
+
+@media (min-width:1024px){
+  .cd1 form, .cd2 form{
+    margin-top: 10px;
+  }
+  .prd{
+    border: 2px solid black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .col1{
+  border: 2px solid black;
+  }
+}
+
+
+
+
+
+
