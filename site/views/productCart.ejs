@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %> 
+<body>
+
+<%- include('partials/header') %> 
+
+<!--Titulo-->
+<div class="cartTitle">
+    <div class="col-12">
+        <h1>Su carrito de compras</h1>
+    </div>
+</div>
+
+<!--Productos elegidos-->
+<div class="carrito">
+    
+
+    <div class="container col-12 col-md-4 col-lg-4">
+    <div class="row productos">
+        <img src="/images/motoe6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Motorola</h5>
+            <p class="card-text">E6 PLUS</p>
+            <p class="precio">$15.000</p>
+        </div>
+        </div>
+        
+    </div>
+
+                        <!--Contador-->
+<div class="container col-12 col-md-2 col-lg-2">
+<div class="row contador">
+    
+        <div>
+            <h5>Cantidad</h5>
+            <div class="def-number-input number-input safari_only mb-0 w-100">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                class="minus"></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                class="plus"></button>
+            </div>
+        </div>           
+            
+            <h5>Stock disponible: </h5>
+            <p>300 unidades</p>
+            </div>
+        </div>
+
+
+                <!--valor unitario-->
+<div class="container col-12 col-md-2 col-lg-2">
+<div class="row ">
+    <div class="valores">
+        
+        <h5>Valor unitario</h5>
+        <p class="precio">$15.000</p>
+        <h5 class="imp">Impuestos agregados</h5>
+        <p class="impuestos">$200</p>
+    </div>
+</div>
+</div>
+
+<!--total a pagar-->
+<div class="container col-12 col-md-2 col-lg-2">
+<div class="row">
+
+        <h5 class="total">Total a pagar</h5>
+        <form action="">
+            <div class="row">
+            <select name="descuento" class="descuento">
+                <option value="">codigo de descuento</option>
+            </select>
+
+            <select name="Medio de pago" class="medios">
+                <option value="">tarjeta de credito</option>
+                <option value="">Tarjeta de debito</option>
+                <option value="">Mercadopago</option>
+            </select>
+            </div>
+        </form>
+        <a href="#" class="btn btn-primary">Pagar</a>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer')  %>
+</body>
+
+</html>
