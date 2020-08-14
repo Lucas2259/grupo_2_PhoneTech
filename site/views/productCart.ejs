@@ -1,89 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="stylesheets/styleCarrito.css">
-    <title>Carrito</title>
-</head>
-
+<%- include('partials/head') %> 
 <body>
-<!--HEADER: CABECERA Y MENÚ DE NAVEGACIÓN-->
 
-    <header class="container-fluid">
-
-        <!--Caja contenedora de boostrap-->
-        <div class="container">
-
-            <!--Caja que contiene el logotipo, el buscador y botón con un link-->
-            <div class="row">
-
-                <!--Caja que contiene el logotipo-->
-                <div class="col-5 col-md-2 col-lg-2 logo">
-                    <a href=""><img src="/images/logo.jpeg" alt=""></a>
-                </div>
-
-                <!--Caja que contiene el buscador-->
-                <div class="col-7 col-md-6 col-lg-5">
-                    <form action=" ">
-                        <input type="text" placeholder="Busca tu smartphone aquí ">
-                        <button><i class="fas fa-search "></i></button>
-                    </form>
-                </div>
-
-
-                <!--Finaliza el div.row-->
-            </div>
-
-            <!--Barra de navegación-->
-            <nav class="navbar-expand-md nav">
-
-                <!--Boton para que desplegar el menu  en caso que el viewport sea tamaño movil-->
-                <button class="navbar-toggler burger" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation"><i class="fas fa-bars "></i>
-                </button>
-
-                <!--Barra de menu que aparece a partir de la vesión de tablet-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <!--Barra de menu izquierdo-->
-                    <ul class="menu navbar-nav mr-auto nav-1">
-                        <li><a href="">Modelos</a></li>
-                        <li><a href="">Accesorios</a></li>
-                    </ul>
-
-                    <!--Barra de menu: login y registro-->
-                    <ul class="usuario navbar-nav nav-2">
-                        <li><a href=" ">Creá tu cuenta <i class="far fa-address-card "></i></a> </li>
-                        <li><a href=" ">Ingresá <i class="fas fa-sign-in-alt "></i></a></li>
-                        <li><a href=" ">Mi carrito <i class="fas fa-shopping-basket "></i></a></li>
-                    </ul>
-                </div>
-                <!--Finaliza caja contenedora del menu-->
-            </nav>
-        </div>
-        <!--Finaliza caja contenedora bootstrap-->
-</header>
-</head>
+<%- include('partials/header') %> 
 
 <!--Titulo-->
 <div class="cartTitle">
     <div class="col-12">
-        <h1>Carrito de compras</h1>
+        <h1>Su carrito de compras</h1>
     </div>
 </div>
 
 <!--Productos elegidos-->
-<div class="carrito"> 
+<div class="carrito">
+    
 
-    <div class="container">
+    <div class="container col-12 col-md-4 col-lg-4">
     <div class="row productos">
-        <div class="card col-sm-12 col-lg-4">
         <img src="/images/motoe6.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -91,29 +26,35 @@
             <p class="precio">$15.000</p>
         </div>
         </div>
-        </div>
+        
     </div>
 
                         <!--Contador-->
-<div class="container">
+<div class="container col-12 col-md-2 col-lg-2">
 <div class="row contador">
-    <div class="col-12 col-sm-6 col-md col-lg-2">
-        <div class="def-number-input number-input safari_only mb-0 w-100">
+    
+        <div>
+            <h5>Cantidad</h5>
+            <div class="def-number-input number-input safari_only mb-0 w-100">
             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-            class="minus decrease"></button>
+                class="minus"></button>
             <input class="quantity" min="0" name="quantity" value="1" type="number">
             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-            class="plus increase"></button>
+                class="plus"></button>
+            </div>
+        </div>           
+            
+            <h5>Stock disponible: </h5>
+            <p>300 unidades</p>
             </div>
         </div>
-        </div>
-</div>
+
 
                 <!--valor unitario-->
-<div class="container">
+<div class="container col-12 col-md-2 col-lg-2">
 <div class="row ">
     <div class="valores">
-        <div class="col-12 col-sm-6 col-md col-lg-2">
+        
         <h5>Valor unitario</h5>
         <p class="precio">$15.000</p>
         <h5 class="imp">Impuestos agregados</h5>
@@ -121,35 +62,33 @@
     </div>
 </div>
 </div>
-</div>
+
 <!--total a pagar-->
-<div class="container">
+<div class="container col-12 col-md-2 col-lg-2">
 <div class="row">
-    <div class="col-12 col-sm-6 col-md col-lg-2">
-    <div class="total">
-        <h5>Total a pagar</h5>
+
+        <h5 class="total">Total a pagar</h5>
         <form action="">
             <div class="row">
-            <select name="descuento" id="">
+            <select name="descuento" class="descuento">
                 <option value="">codigo de descuento</option>
             </select>
-            <select name="Medio de pago" id="">
+
+            <select name="Medio de pago" class="medios">
                 <option value="">tarjeta de credito</option>
                 <option value="">Tarjeta de debito</option>
                 <option value="">Mercadopago</option>
             </select>
             </div>
         </form>
+        <a href="#" class="btn btn-primary">Pagar</a>
     </div>
-    </div>
-</div>
-</div>
-
 </div>
 
 
 
 
+</div>
 
 
 
@@ -162,15 +101,8 @@
 
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+
+<%- include('partials/footer')  %>
 </body>
 
 </html>

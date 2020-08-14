@@ -3,8 +3,19 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+  res.render('index');
+}),
+
+router.get('/carga',function(req,res,next){
+  res.render('carga')
+})
+
+router.get('/login', function(req,res,next){
+ res.render('login')
+})
+
+ 
+
 
 /* GET carrito de compras*/
 router.get('/cart', function(req, res, next) {

@@ -1,0 +1,57 @@
+ <!--HEADER: CABECERA Y MENÚ DE NAVEGACIÓN-->
+
+ <header class="container-fluid">
+
+    <!--Caja contenedora de boostrap-->
+    <div class="container">
+
+      <!--Caja que contiene el logotipo, el buscador y botón con un link-->
+      <div class="row">
+
+        <!--Caja que contiene el logotipo-->
+        <div class="col-4 col-md-2 col-lg-2 logo">
+          <a href=""><img src="/images/logo.jpeg" alt=""></a>
+        </div>
+
+        <!--Caja que contiene el buscador-->
+        <div class="col-8 col-md-8 col-lg-5 src">
+          <form action=" ">
+            <input type="text" placeholder="Busca tu smartphone aquí ">
+            <button><i class="fas fa-search "></i></button>
+          </form>
+        </div>
+
+
+        <!--Finaliza el div.row-->
+      </div>
+
+      <!--Barra de navegación-->
+      <nav class="navbar-expand-md nav">
+
+        <!--Boton para que desplegar el menu  en caso que el viewport sea tamaño movil-->
+        <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+            class="fas fa-bars "></i>
+        </button>
+
+        <!--Barra de menu que aparece a partir de la vesión de tablet-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!--Barra de menu izquierdo-->
+          <ul class="menu navbar-nav mr-auto nav-1">
+            <li><a href="">Modelos</a></li>
+            <li><a href="">Accesorios</a></li>
+          </ul>
+
+          <!--Barra de menu: login y registro-->
+          <ul class="usuario navbar-nav nav-2">
+            <li><a href=" ">Creá tu cuenta <i class="far fa-address-card "></i></a> </li>
+            <li><a href=" ">Ingresá <i class="fas fa-sign-in-alt "></i></a></li>
+            <li><a href=" "><i class="fas fa-shopping-bag"></i></i></a></li>
+          </ul>
+        </div>
+        <!--Finaliza caja contenedora del menu-->
+      </nav>
+    </div>
+    <!--Finaliza caja contenedora bootstrap-->
+  </header>

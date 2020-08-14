@@ -1,4 +1,4 @@
-/* IMPORTS */
+/* /* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
 
 /* GENERALES */
@@ -122,17 +122,43 @@ nav .nav-1 li a {
     border:2px solid  black;
     margin-top: 5px;
 }
-
+/*Productos elegidos*/
 .carrito{
-    display: flex;
-    flex-wrap: wrap;
+
     border: 2px solid black;
+    width: 100%;
 }
-.carrito .container-fluid1{
-    margin: 5px;
+.carrito .container{
+    border:2px solid  black;
+    margin-top: 5px;
 }
 
-.productos{
-    display: flex;
-    flex-wrap: wrap;
+/*Contador*/
+.container{
+    border:2px solid  black;
+    margin-top: 5px;
+}
+
+
+/*Valor unitario*/
+.containerVal{
+    border:2px solid  black;
+    margin-top: 5px;
+}
+
+/*total a pagar*/
+.containerTotal{
+    border:2px solid  black;
+    margin-top: 5px;
+
+}
+.descuento{
+    width: 50%;
+}
+.medios{
+    width: 50%;
+}
+.btn{
+    background-color: red;
+    color: black;
 }
