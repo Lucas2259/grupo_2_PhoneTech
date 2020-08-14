@@ -1,74 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
-  <title>Phone Tech</title>
-</head>
+<%- include('partials/head')  %>
 
 <body>
-  <!--HEADER: CABECERA Y MENÚ DE NAVEGACIÓN-->
-
-  <header class="container-fluid">
-
-    <!--Caja contenedora de boostrap-->
-    <div class="container">
-
-      <!--Caja que contiene el logotipo, el buscador y botón con un link-->
-      <div class="row">
-
-        <!--Caja que contiene el logotipo-->
-        <div class="col-5 col-md-2 col-lg-2 logo">
-          <a href=""><img src="/images/logo.jpeg" alt=""></a>
-        </div>
-
-        <!--Caja que contiene el buscador-->
-        <div class="col-7 col-md-6 col-lg-5">
-          <form action=" ">
-            <input type="text" placeholder="Busca tu smartphone aquí ">
-            <button><i class="fas fa-search "></i></button>
-          </form>
-        </div>
-
-
-        <!--Finaliza el div.row-->
-      </div>
-
-      <!--Barra de navegación-->
-      <nav class="navbar-expand-md nav">
-
-        <!--Boton para que desplegar el menu  en caso que el viewport sea tamaño movil-->
-        <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
-            class="fas fa-bars "></i>
-        </button>
-
-        <!--Barra de menu que aparece a partir de la vesión de tablet-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          <!--Barra de menu izquierdo-->
-          <ul class="menu navbar-nav mr-auto nav-1">
-            <li><a href="">Modelos</a></li>
-            <li><a href="">Accesorios</a></li>
-          </ul>
-
-          <!--Barra de menu: login y registro-->
-          <ul class="usuario navbar-nav nav-2">
-            <li><a href=" ">Creá tu cuenta <i class="far fa-address-card "></i></a> </li>
-            <li><a href=" ">Ingresá <i class="fas fa-sign-in-alt "></i></a></li>
-            <li><a href=" ">Mi carrito <i class="fas fa-shopping-basket "></i></a></li>
-          </ul>
-        </div>
-        <!--Finaliza caja contenedora del menu-->
-      </nav>
-    </div>
-    <!--Finaliza caja contenedora bootstrap-->
-  </header>
+  <%- include('partials/header')  %>
 
   <!-- Carousel --->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -102,7 +38,7 @@
   <div class="container">
     <div class="container py-5">
       <div class="row productos">
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -111,7 +47,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -120,7 +56,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -129,7 +65,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -141,7 +77,7 @@
 
         <!---Segunda columna de 4 articulos-->
 
-        <div class="card card-productos col-sm-12 col-lg-3">
+        <div class="card card-productos col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -150,7 +86,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -159,7 +95,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -168,7 +104,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/motoe6.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Motorola</h5>
@@ -181,6 +117,7 @@
     </div>
   </div>
   </div>
+  </div>
 
   <!---- Accesorios ----->
   <!--- Fila de 4 productos ---->
@@ -188,7 +125,7 @@
   <div class="container">
     <div class="container py-5">
       <div class="row productos">
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/auricular.jpeg" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Auriculares Inalambricos</h5>
@@ -196,7 +133,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="/images/airpods.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Airpods</h5>
@@ -204,7 +141,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="images/type-c.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cable Tipo C</h5>
@@ -212,7 +149,7 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg-3">
+        <div class="card col-sm-12 col-md-3 col-lg-3">
           <img src="images/cargador.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cargador</h5>
@@ -223,56 +160,9 @@
       </div>
     </div>
   </div>
- 
-
-  <!--- FOOTER ---->
-  <div class="container-fluid">
-    <div class="row footer">
-      <div class="col-12 li">
-        <ul>
-          <a href="">
-            <li>Home</li>
-          </a>
-          <a href="">
-            <li>Nosotros</li>
-          </a>
-          <a href="">
-            <li>Contacto</li>
-          </a>
-        </ul>
-      </div>
-
-      <!--- ICONOS ---->
-      <div class="col-12 iconos">
-        <a href=""><i class="fab fa-facebook"></i></a>
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-twitter-square"></i></a>
-      </div>
-      <!--- TERMINOS Y CONDICIONES-->
-      <div class="col-12 terminos">
-        <a href="">
-          <p class="term">Terminos y condiciones</p>
-        </a>
-        <a href="">
-          <p class="term">Aviso legal</p>
-        </a>
-        <a href=""></a>
-        <a href=""><p class="term">Politica de privacidad</p></a>
-      </div>
-    </div>
-  </div>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+  <%- include('partials/footer')  %>
 </body>
 
 </html>
