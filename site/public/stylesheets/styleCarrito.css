@@ -30,22 +30,22 @@ font-family: 'Open Sans', sans-serif;
 
 /* CAMBIOS GENERALES */
 
-a {
+.carrito a {
     text-decoration: none;
     font-family: 'Open Sans';
     color: black;
 }
 
-a:hover {
+.carrito a:hover {
     color: black;
     text-decoration: none;
 }
 
-li {
+.carrito li {
     list-style: none;
 }
 
-body {
+.carrito body {
     background-color: var(--color-gris)
 }
 
@@ -91,7 +91,7 @@ header form button {
 
 /* NAV BURGER BUTTON */
 
-nav {
+ nav {
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -99,7 +99,7 @@ nav {
     justify-content: center;
 }
 
-nav .burger {
+ nav .burger {
     background-color: var(--color-naranja);
     color: var(--color-gris);
 }
@@ -118,7 +118,7 @@ nav .nav-1 li a {
 
 /*carrito*/
 
-.cartTitle h1{
+.carrito .cartTitle h1{
     border:2px solid  black;
     margin-top: 5px;
 }
@@ -134,31 +134,31 @@ nav .nav-1 li a {
 }
 
 /*Contador*/
-.container{
+.carrito .container{
     border:2px solid  black;
     margin-top: 5px;
 }
 
 
 /*Valor unitario*/
-.containerVal{
+.carrito .containerVal{
     border:2px solid  black;
     margin-top: 5px;
 }
 
 /*total a pagar*/
-.containerTotal{
+.carrito .containerTotal{
     border:2px solid  black;
     margin-top: 5px;
 
 }
-.descuento{
+.carrito .descuento{
     width: 50%;
 }
-.medios{
+.carrito .medios{
     width: 50%;
 }
-.btn{
+.carrito .btn{
     background-color: red;
     color: black;
 }
