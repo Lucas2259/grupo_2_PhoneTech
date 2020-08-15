@@ -55,19 +55,19 @@
 
 .registro .form1{
   border: 1px solid black;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: auto;
+  margin-bottom: 5px;
   font-family: sans-serif;
-  margin-top:20px;
-  flex-wrap: wrap;
-  display: flex;
+  justify-content:center;
+  margin: auto;
 }
 
 .registro .title h1{
   border:1px solid black;
-  padding: 10px;
+  padding: 5px;
   font-family: sans-serif;
   width: 100%;
+  margin-top: 0px;
   
 }
 
@@ -78,10 +78,11 @@
   font-family: sans-serif;
   flex-wrap: wrap;
   display: flex;
+  margin-top: 15px;
  } 
 
 .registro label{
- margin-bottom: 20px;
+ margin-bottom: 1px;
 }
 
 .registro input{
@@ -90,11 +91,11 @@
 
 .registro .sexo{
   width: 10%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .registro label{
-  padding-top: 20px;
+  padding-top: 5px;
   
 }
 
@@ -103,7 +104,7 @@
 }
 
  .registro .btnIngresa{
-   width: 50%;
+   width: 40%;
    background-color: #f0f000;
    right: 30px;
    margin: 10px;
