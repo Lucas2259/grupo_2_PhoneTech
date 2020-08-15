@@ -26,30 +26,33 @@
 
       
       <!--formulario-->
-      <div class="container-fluid">
+      <div class="container">
         <div class="row form1 col-10">
-          <form action="">
+          <form action="register.ejs" method="GET">
             <label for="">Nombre</label>
             <input type="text">
             <br>
             <label for="">DNI</label>
             <input type="number" class="dni">
             <br>
-            <label for="">Email</label>
+            <label for="">Email</label> 
             <input type="text">
 
-            <div class="">
+            <div class="mitad">
             <label for="">Apellido</label>
             <input type="text">
             <br> 
             <div class="sexo">
-              Hombre<input type="radio">
-              Mujer<input type="radio">
+            Hombre<input type="radio" name="si" value="S">
+            Mujer<input type="radio" name="si" value="N">
           </div>
             <label for="">Contraseña</label>
             <input type="text">
 
             <button type="submit" class="btnIngresa">Registrarme aquí</button>
+           <lu><a href="#">terminos y condiciones</a></lu>
+           <br>
+          <lu><a href="#">politicas de privacidad</a></li>
           </form>
         </div>
       </div>
@@ -59,7 +62,7 @@
       <!--Footer-->
       <footer class="container-fluid col-10">
         <div class="row login">
-            <h2>¿Ya estás registrado?</h2>
+            <h4>¿Ya estás registrado?</h4>
             <button type="submit" class="btnIngresa">Ingresa aquí</button>
         </div>
         </footer>

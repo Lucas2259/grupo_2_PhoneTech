@@ -65,7 +65,7 @@
 .registro .title h1{
   border:1px solid black;
   padding: 5px;
-  font-family: sans-serif;
+  font-family: 'bungee';
   width: 100%;
   margin-top: 0px;
   
@@ -99,8 +99,9 @@
   
 }
 
-.registro h2{
+.registro h4{
   margin: 5px;
+  font-family: 'Open Sans';
 }
 
  .registro .btnIngresa{
@@ -110,10 +111,21 @@
    margin: 10px;
    border-width: black;
  }
-
-/*@media(min-width: 426px){
   
-}*/
+  .registro .form1 a{
+    width: 50%;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+  }
+
+  /*tablet*/
+@media(min-width: 768px){
+  
+}
+
+@media(min-width:1024px){
+
+}
 
 
 
