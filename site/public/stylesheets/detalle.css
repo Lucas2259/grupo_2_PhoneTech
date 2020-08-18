@@ -85,10 +85,9 @@ footer .mas-opciones{
     footer .mas-opciones{
         border: 5px solid gray;
         padding: 10px;
-        justify-content: space-around;
     }
 
-    footer .mas-opciones .caja-1{
+    footer .mas-opciones .caja-1,.caja-2,.caja-3{
         display: flex;
         flex-wrap: wrap;
     }
