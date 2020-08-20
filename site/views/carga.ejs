@@ -4,21 +4,7 @@
 <%- include('partials/head') %> 
 
 <body>
-    <!--CAJA QUE CONTIENE SOLAMENTE EL LOGO-->
-    <header class="container-fluid">
-        <!--Caja contenedora de boostrap-->
-        <div class="container">
-            <!--Caja que contiene el logotipo, el buscador y botón con un link-->
-            <div class="row">
-                <!--Caja que contiene el logotipo-->
-                <div class="col-5 col-md-2 col-lg-2 logo">
-                    <a href="/index"><img src="/images/logo.jpeg" alt=""></a>
-                </div>
-                <!--Finaliza el div.row-->
-            </div>
-        </div>
-        <!--Finaliza caja contenedora bootstrap-->
-    </header>
+    <%- include('partials/header') %> 
 
 
     <div class="container carga">
@@ -80,45 +66,6 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -128,6 +75,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+
+    <%- include('partials/footer') %> 
 </body>
 
 </html>

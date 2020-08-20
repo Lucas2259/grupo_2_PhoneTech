@@ -4,16 +4,7 @@
   <%- include('partials/head') %>
   <body>
     
-    <header class="container-fluid">
-      <div class="container">
-        <!--Caja que contiene el logotipo-->
-        <div class="row col-12">
-          <div class="col-5 col-md-2 col-lg-2 logo">
-            <a href=""><img src="images/logo.jpeg" alt="" /></a>
-          </div>
-        </div>
-      </div>
-        </header>
+    <%- include('partials/header.ejs') %> 
 
     
       <!--titulo formulario-->
@@ -48,27 +39,33 @@
           </div>
             <label for="">Contraseña</label>
             <input type="text">
-
             <button type="submit" class="btnIngresa">Registrarme aquí</button>
-           <lu><a href="#">terminos y condiciones</a></lu>
-           <br>
-          <lu><a href="#">politicas de privacidad</a></li>
           </form>
         </div>
       </div>
     </div> 
         
 
-      <!--Footer-->
-      <footer class="container-fluid col-10">
+      
+      <div class="container col-10">
         <div class="row login">
             <h4>¿Ya estás registrado?</h4>
             <button type="submit" class="btnIngresa">Ingresa aquí</button>
         </div>
-        </footer>
+      </div>
       </div>   
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     
-    
+    <%- include('partials/footer') %> 
   </body>
 </html>
