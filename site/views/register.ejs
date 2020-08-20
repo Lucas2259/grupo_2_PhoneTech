@@ -20,26 +20,26 @@
       <div class="container">
         <div class="row form1 col-10">
           <form action="register.ejs" method="GET">
-            <label for="">Nombre</label>
+            <label for="" name= "nombre" >Nombre</label>
             <input type="text">
             <br>
-            <label for="">DNI</label>
+            <label for="" name="dni" >DNI</label>
             <input type="number" class="dni">
             <br>
-            <label for="">Email</label> 
+            <label for="" name="email" >Email</label> 
             <input type="text">
 
             <div class="mitad">
-            <label for="">Apellido</label>
+            <label for="" name="apellido">Apellido</label>
             <input type="text">
             <br> 
             <div class="sexo">
             Hombre<input type="radio" name="si" value="S">
             Mujer<input type="radio" name="si" value="N">
           </div>
-            <label for="">Contraseña</label>
+            <label for="" name="contraseña">Contraseña</label>
             <input type="text">
-            <button type="submit" class="btnIngresa">Registrarme aquí</button>
+            <button type="submit" class="btnIngresa" name="registrarme">Registrarme aquí</button>
           </form>
         </div>
       </div>
@@ -50,7 +50,7 @@
       <div class="container col-10">
         <div class="row login">
             <h4>¿Ya estás registrado?</h4>
-            <button type="submit" class="btnIngresa">Ingresa aquí</button>
+            <button type="submit" class="btnIngresa" name="ingresa">Ingresa aquí</button>
         </div>
       </div>
       </div>   

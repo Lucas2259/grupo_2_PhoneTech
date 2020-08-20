@@ -14,6 +14,10 @@ router.get('/login', function(req,res,next){
  res.render('login')
 })
 
+router.get('/detalle', function(req, res, next){
+  res.render('detalle')
+})
+
  
 
 
