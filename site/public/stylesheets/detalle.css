@@ -27,11 +27,7 @@ section .boton-detalle{
 /*===FOOTER===*/
 
 
-footer img{
-    width: 100%;
-}
-
-footer .mas-opciones{
+div .otros-productos{
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
@@ -52,7 +48,7 @@ footer .mas-opciones{
         margin-top: 20px;
     }
 
-    footer .mas-opciones{
+    div .otros-productos{
         padding-top: 25px;
         border-top: 5px solid gray;
     }
@@ -82,14 +78,17 @@ footer .mas-opciones{
         padding: 5px;
     }
 
-    footer .mas-opciones{
+    div .otros-productos{
         border: 5px solid gray;
         padding: 10px;
     }
 
-    footer .mas-opciones .caja-1,.caja-2,.caja-3{
+    div .otros-productos .caja-1,.caja-2,.caja-3{
         display: flex;
         flex-wrap: wrap;
     }
 
+    div .otros-productos .imagen, .caracteristica-detalle{
+        padding: 0px;
+    }
 }
