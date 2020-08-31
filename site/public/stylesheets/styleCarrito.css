@@ -91,7 +91,7 @@ header form button {
 
 /* NAV BURGER BUTTON */
 
- nav {
+nav {
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -99,7 +99,7 @@ header form button {
     justify-content: center;
 }
 
- nav .burger {
+nav .burger {
     background-color: var(--color-naranja);
     color: var(--color-gris);
 }
@@ -118,47 +118,193 @@ nav .nav-1 li a {
 
 /*carrito*/
 
-.carrito .cartTitle h1{
-    border:2px solid  black;
+.cartTitle h1 {
+    border: 2px solid black;
     margin-top: 5px;
 }
-/*Productos elegidos*/
-.carrito{
 
+/*Productos elegidos*/
+.carrito {
+    text-align: center;
     border: 2px solid black;
     width: 100%;
 }
-.carrito .container{
-    border:2px solid  black;
+
+.carrito .container {
+    border: 2px solid black;
     margin-top: 5px;
 }
 
 /*Contador*/
-.carrito .container{
-    border:2px solid  black;
+.form-group {
+    border: 2px solid black;
     margin-top: 5px;
 }
 
 
 /*Valor unitario*/
-.carrito .containerVal{
-    border:2px solid  black;
-    margin-top: 5px;
-}
+
 
 /*total a pagar*/
-.carrito .containerTotal{
-    border:2px solid  black;
-    margin-top: 5px;
 
-}
-.carrito .descuento{
+.descuento {
     width: 50%;
 }
-.carrito .medios{
+
+.medios {
     width: 50%;
 }
-.carrito .btn{
-    background-color: red;
-    color: black;
+
+.center-componentes {
+    display: flex;
+    align-self: center;
+}
+
+/*eliminar*/
+
+/* Variables
+================================== */
+/* Tables
+================================== */
+.Rtable {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 3em 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Rtable-cell {
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    border: solid 3px white;
+    background: rgba(112, 128, 144, 0.2);
+}
+
+/*Table column sizing
+  ================================== */
+.Rtable--2cols>.Rtable-cell {
+    width: 50%;
+}
+
+.Rtable--3cols>.Rtable-cell {
+    width: 33.33%;
+}
+
+.Rtable--4cols>.Rtable-cell {
+    width: 25%;
+}
+
+.Rtable--5cols>.Rtable-cell {
+    width: 20%;
+}
+
+.Rtable--6cols>.Rtable-cell {
+    width: 16.6%;
+}
+
+/* Page styling
+  ================================== */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap');
+}
+
+html {
+    height: 100%;
+    background-color: #EEE;
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 800px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    background-color: #dbdbdb;
+    border: double 3px #DDD;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+strong {
+    color: #dbdbdb;;
+}
+
+/* Apply styles
+  ================================== */
+.Rtable {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.Rtable-cell {
+    margin: -3px 0 0 -3px;
+    background-color: white;
+    border-color: #e2e6e9;
+}
+
+/* Cell styles
+  ================================== */
+
+
+
+.Rtable-cell {
+    background-color: #dbdbdb;
+    border-color: #a9b3bc;
+}
+
+/* Responsive
+  ==================================== */
+@media all and (max-width: 500px) {
+    .Rtable--collapse {
+        display: block;
+    }
+
+    .Rtable--collapse>.Rtable-cell {
+        width: 100% !important;
+    }
+
+    .Rtable--collapse>.Rtable-cell--foot {
+        margin-bottom: 1em;
+    }
+}
+
+.no-flexbox .Rtable {
+    display: block;
+}
+
+.no-flexbox .Rtable>.Rtable-cell {
+    width: 100%;
+}
+
+.no-flexbox .Rtable>.Rtable-cell--foot {
+    margin-bottom: 1em;
 }
