@@ -25,9 +25,9 @@ router.get('/detalle', function(req, res, next){
 router.get('/cart', function(req, res, next) {
   res.render('productCart');
 });
-router.get('/register',function(req, res)
+router.get('/login',function(req, res)
  {
-  res.render('register');
+  res.render('login');
 })
 
 
